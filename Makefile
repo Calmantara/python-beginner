@@ -4,4 +4,4 @@ init:
 active: 
 	source ./python-beginner/bin/activate
 deactiavte:
-	deactiavte
+	deactivate
