@@ -131,3 +131,16 @@ confuse2()
 # answer: 
 
 print("==========================")
+print(type(confuse), type(func1))
+# CALLBACK
+def callback_func(name: str):
+    print(name + " called me","callback_func called")
+def complex_func(name: str, callback):
+    callback(name)
+complex_func("user", callback_func)
+complex_func("user", lambda nm: print(nm + " lambda called"))
+
+# FUNCTION as return from other function
+def return_function():
+    return lambda : print("hello from lambda")
+return_function()()
