@@ -7,7 +7,7 @@
 # }
 
 # Python
-def function_name():
+def function_name(args):
     # Argument
     # Result
     return
@@ -46,10 +46,9 @@ print(very_complex_function(1,2,3,4,50))
 # function documentation
 def call_me(name: str) -> str:
     """call user name
-
+    some long description\n
     Args:
         name (str): user name input
-
     Returns:
         str: user called
     """
