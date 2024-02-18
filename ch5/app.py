@@ -43,8 +43,8 @@ fj.close()
 
 # Error handler
 try:
-    print(x)
-except:
+    print(x)  # noqa: F821
+except:  # noqa: E722
     print("An exception occurred")
 finally:
     print("enter finally block")
