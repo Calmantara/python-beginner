@@ -3,3 +3,5 @@ python-beginner
 
 .vscode
 .venv
+
+__pycache__

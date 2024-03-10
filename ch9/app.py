@@ -3,6 +3,7 @@ from flask import request
 from flask import render_template
 from markupsafe import escape
 
+
 app = Flask(__name__)
 
 
